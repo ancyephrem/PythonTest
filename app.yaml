@@ -11,6 +11,6 @@ handlers:
 - url: /.*
   script: Background.jpg
 - url: /images
-  static_dir: images
+  static_dir: static/images
 
 
