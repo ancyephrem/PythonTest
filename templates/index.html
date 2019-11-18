@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Social Media</title>
+    
+    <link rel="stylesheet" href="{{ url_for('static',    filename='css/template.css') }}">
+    
+</head>
+  <body style="background-image:url(Background.jpg)">
+    <header>
+      <div class="container">
+        <h1 class="logo"><font size="+10" color="black"><center> Access your Social Medias Here</center></font></h1>
+        <strong><nav>
+          <ul class="menu">
+            <a href="https://www.linkedin.com/feed/"><font size="+10" color="white"><center>LinkedIn</center></font></a>
+            <a href="https://www.facebook.com/"><font size="+10" color="white"><center>Facebook</center></font></a>
+			<a href="https://www.instagram.com/"><font size="+10" color="white"><center>Instagram</center></font></a>
+			<p><center><span id="datetime"></center></span></p>
+
+			<script>
+			var dt = new Date();
+			document.getElementById("datetime").innerHTML = (("0"+dt.getDate()).slice(-2)) +"."+ (("0"+(dt.getMonth()+1)).slice(-2)) +"."+ (dt.getFullYear()) +" "+ (("0"+dt.getHours()).slice(-2)) +":"+ (("0"+dt.getMinutes()).slice(-2));
+			</script>
+          </ul>
+        </nav></strong>
+      </div>
+    </header>
+   
+
+ </body>
+</html>
