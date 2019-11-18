@@ -13,4 +13,6 @@ handlers:
 - url: /images
   static_dir: static/images
 
-
+libraries:
+- name: flask
+  version: 0.12
