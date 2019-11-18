@@ -10,6 +10,8 @@ handlers:
   login: required
 - url: /.*
   script: Background.jpg
+- url: /images
+  static_dir: images
 
 env_variables:
   LANG_TAG: 'it'
