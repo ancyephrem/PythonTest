@@ -8,6 +8,8 @@ handlers:
 - url: /.*
   script: main.app
   login: required
+- url: /.*
+  script: Background.jpg
 
 env_variables:
   LANG_TAG: 'it'
